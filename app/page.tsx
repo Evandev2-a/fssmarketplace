@@ -4,7 +4,7 @@ export default function LandingPage() {
   return (
     <div className="bg-[#0F1117] text-white font-sans antialiased min-h-screen">
       {/* Header / Navbar */}
-      <nav class="bg-[rgba(21,26,38,0.6)] backdrop-blur-md sticky top-0 z-50 px-6 py-4 flex items-center justify-between border-b border-white/5 mx-4 my-3 rounded-2xl">
+      <nav className="bg-[rgba(21,26,38,0.6)] backdrop-blur-md sticky top-0 z-50 px-6 py-4 flex items-center justify-between border-b border-white/5 mx-4 my-3 rounded-2xl">
         <div className="flex items-center space-x-2">
           <span className="text-2xl font-black tracking-wider text-[#FFD400]">FSS</span>
           <span className="text-xl font-light tracking-wide text-white/80">MARKET</span>
@@ -27,7 +27,7 @@ export default function LandingPage() {
         </span>
         <h1 className="text-5xl md:text-7xl font-black tracking-tight mb-6 leading-none">
           Trade High-Value <br />
-          <span class="text-[#FFD400]">FSS Accounts</span> Safely.
+          <span className="text-[#FFD400]">FSS Accounts</span> Safely.
         </h1>
         <p className="text-gray-400 text-lg md:text-xl max-w-2xl mx-auto mb-10">
           Buy, sell, and escrow premium Fifa Super Soccer accounts. Instant delivery and 100% secure payment protection.
